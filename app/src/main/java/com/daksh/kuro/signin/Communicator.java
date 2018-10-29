@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Communicator {
     private static  final String TAG = "Communicator";
-    public static final String BASE_URL = "http://qualitypatrol.com/api/";
+    public static final String BASE_URL = "YOUR_API_BASE_URL";
 
     public void loginPost(String email, String password,String name,String phone,String location,String city,String business_name){
 
